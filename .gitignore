@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# This file is used to ignore files which are generated
-# ----------------------------------------------------------------------------
-
 *~
 *.autosave
 *.a
@@ -72,7 +68,6 @@ Thumbs.db
 *.dll
 *.exe
 
-=======
 # Prerequisites
 *.d
 
@@ -105,4 +100,3 @@ Thumbs.db
 *.exe
 *.out
 *.app
->>>>>>> 4d9b1338f53cf1a4d9f77ed1461f781860960887
