@@ -16,7 +16,7 @@ struct adb_device_t {
     quint8      host_epout;
 };
 
-#ifdef ADB
+#if 1
 #define A_SYNC 0x434e5953
 #define A_CNXN 0x4e584e43
 #define A_OPEN 0x4e45504f
@@ -47,10 +47,13 @@ struct adb_device_t {
 
 #define A_VERSION 0x00000001 // ADB protocol version
 
+
 #define ADB_VERSION_MAJOR 1 // Used for help/version information
 #define ADB_VERSION_MINOR 0 // Used for help/version information
 
 #endif
+
+#define A_CLOSE 0x00000006 // ADB protocol version
 
 
 typedef struct adb_packet {
